@@ -1,0 +1,210 @@
+body {
+	background-color: #f8f8f8;
+	height: 100%;
+}
+.contener{
+	width: 1500px;
+    margin: 0 auto;
+}
+.header {
+	background-color:  #abeafa;
+    width: 1500px;
+    height: 700px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;}
+.logo{
+	width: 125px;
+	height: 111px;
+	float:left;
+    margin-left:324px;
+    margin-top:24px;
+	}
+	.aside{
+		width: 270px;
+		height: 400px;
+		float: left;
+	}
+.menu{
+	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	list-style-type: none;
+	position: absolute;
+	top:680px;
+	left: 165px;
+	background-color:  #333333;
+	
+	
+
+  }
+.menu li {
+	margin-top:765; 
+	margin-left:205px;
+	width: 99px;
+    height: 370px;
+    text-align: center;
+    line-height: 40px;
+
+	}
+.menu li a {
+	color: #4B0082;
+		}
+.menu li a:hover {
+	color: #DC143C;
+}
+.zagolovok {
+	display: inline-block;
+	height: 169px;
+	width:313px;
+	font-family: Raleway ExtraBold;
+	color:  #fff51f;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 34px;
+	text-align: left;
+	margin-left:913px;
+    margin-top:243px;
+
+    font-family: Raleway;
+	color:  #fff51f;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+h2{
+	text-align: center;
+}
+
+
+h4 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+	background-color:#eaeaea;
+	}
+.p1 {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+ul {
+	color:#BC8F8F;
+	font-family: Calibri;
+	}
+.img {
+	list-style-image: url(../img/1.png);
+}
+.p2 {
+	color: #484343;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: left;
+}
+input[type="text"] {
+	width: 200px;
+	height: 10px;
+	text-transform: capitalize;
+}
+label{
+	text-align: left;
+}
+input {
+	text-align: left;
+}
+fieldset{
+	width: 300px;
+	height: 400px;
+}
+legend{
+	color:#9400D3;
+	font-family: Calibri;
+	font-weight: bold;
+}
+label{
+	font-family: Calibri;
+	font-weight: bold;
+}
+.glav{
+	float: left;
+	padding: 10px;
+	background: #AFEEEE
+}
+.tov{
+	float:right;
+	padding: 10px;
+	background: #AFEEEE
+	background-right:30px;
+	margin-right: 30px;
+}
+.ad{
+	list-style-type: none;
+	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+	font-style: normal;
+	font-weight: bold;
+	color:#9400D3;
+	}
+	section{
+		display: flex;
+		flex: wrap;
+		justify-content: space-between;
+	}
+	footer{
+		background-image: url(../img/22.png);
+		position: absolute;
+  		height: 50px;
+  		width: 100%;
+		text-align: right;
+		clear: both;
+		margin-top: 100%;
+		 }
+footer p {
+	margin: 20px 30px;
+}
+input[type="text"]:focus {
+	background-color: blue;
+	color: red;
+}
+table{
+	border-collapse: collapse; 
+    background: #AFEEEE;
+    border: 3px solid #000;
+}
+td, tr{
+	padding: 5px;
+    border: 2px solid #000;
+}
+.knopka{
+	width:80px;
+	height: 20px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px solid black;
+	clear: both;
+	border-radius: 20px;
+	font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+	font-size: 10px;
+	font-weight: 600;
+	}
+.knopka:hover{
+	background-color: #9400D3;
+}
+form{
+	display: block;
+	float: left;
+}
+.cont{
+	display: block;
+	clear: both;
+}
+.map{
+	text-align: right;
+	margin-right: 50px;
+}
